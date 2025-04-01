@@ -1,0 +1,56 @@
+.main-container {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  /* overflow-y: auto;  카카오 지도안보임*/
+}
+
+.main-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.main-subtext {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.dart-button {
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.dart-button:hover {
+  background-color: #45a049;
+}
+
+.map-placeholder {
+  height: 200px;
+  background-color: #f1f1f1;
+  border: 2px dashed #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #888;
+  border-radius: 10px;
+}
+
+.app-frame {
+  max-width: 430px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* 꽉 차게 하고 싶으면 */
+}
